@@ -1,4 +1,5 @@
 PROJECT TITLE: Google Homepage 
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
 This is a clone of the Google (India) homepage, built using HTML & CSS.
 
@@ -11,4 +12,3 @@ SKILLS DEMONSTRATED:
 
 ACKNOWLEDGEMENTS: 
 The Odin Project
-From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
