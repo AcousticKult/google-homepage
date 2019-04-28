@@ -1,0 +1,188 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: arial,sans-serif;
+  overflow: hidden;
+}
+
+.nav {
+  text-align: right;
+  min-width: 181px;
+  width: 96%;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+li a {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#app {
+   height: 18px;
+   width: 18px;
+   margin-right: 20px;
+   vertical-align: middle;
+}
+
+#sign-in-box {
+  border: 1px solid rgb(60, 122, 228);
+  font-weight: bold;
+  background-color: rgb(60, 122, 228);
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12;
+  min-width: 45px;
+  border-radius: 2px;
+}
+
+#sign-in {
+  color: #fff;
+  padding-right: 15px;
+}
+
+.content {
+  height: 233px;
+  margin-top: 89px;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+.main_image {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img {
+  height: 92px;
+  width: 272px;
+}
+
+.input {
+  text-align: center;
+  width: 100%;
+}
+
+form {
+  display: inline-block;
+  width: 100%;
+  color: rgba(0,0,0,.87);
+  padding: 5px 8px 0 16px;
+}
+
+input[type=text] {
+  width: 582px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  margin: 20px auto 20px auto;
+  background: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: 98%;
+}
+
+input[type=submit] {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+  height: 36px;
+  line-height: 27px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.languages {
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: small;
+  line-height: 48px;
+  padding: 0 3px;
+}
+
+.languages_a {
+  padding: 0 3px;
+}
+
+.footer_container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  background-color: #f2f2f2;
+  border: 1px solid #e4e4e4;
+}
+
+.India {
+  position: fixed;
+  bottom: 40px;
+  margin-left: 30px;
+  color: rgba(0,0,0,.54); 
+  height: 15px;
+}
+
+.Details {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  line-height: 40px;
+  font-size: small;
+  height: 35px;
+}
+
+.Details_1 {
+  float: left;
+  width: 50%;
+  margin-left: 30px;
+}
+
+.Details_2 {
+  float: right;
+  margin-right: 30px;
+}
+
+.Details_font {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.Details_font:hover {
+  text-decoration: underline;
+}
